@@ -3015,10 +3015,11 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️Sc Ini Dibuat Oleh TheZetsuboXygen (ryo).
+joreply(`🌤𝐈 𝐊𝐍𝐎𝐖 𝐘𝐎𝐔 𝐑𝐄𝐀𝐋𝐋𝐘 𝐍𝐄𝐄𝐃 𝐓𝐇𝐈𝐒 𝐒𝐂𝐑𝐈𝐏𝐓.
 
-❕Yt : ${global.url}
-❗Tl : t.me/𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+❕𝐎𝐖𝐍𝐄𝐑 : https://api.whatsapp.com/send?phone=+254104301695
+❗𝐆𝐑𝐎𝐔𝐏 : https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk
+
 
 `)
 }
@@ -3029,7 +3030,7 @@ let namaown = `𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 𝐈𝐒 𝐊𝐈𝐍𝐆 𝐒𝐀�
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
 "displayName": `${namaown}`,
-"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ 𝐙.𝐱.𝐕 ⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 ༑ ]]\nEND:VCARD`,
+"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:${namaown}\nitem1.TEL;waid=${global.ownMain}:+${global.ownMain}\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-DESCRIPTION:[[ ༑ SPIDER ⿻ 𝐏𝐔𝐁𝐋𝐢𝐂 ༑ ]]\nX-WA-BIZ-NAME: [[ ༑ 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 ༑ ]]\nEND:VCARD`,
 }
 }), { userJid: m.chat, quoted: m })
 ryozingod.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
