@@ -2056,7 +2056,7 @@ case "menu": case "help": case "helep": {
 //text menu
 let njing = `
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-  ▓▓𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥━𝗩4 ▓▓
+  ▓▓ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥━𝗩4 ▓▓
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 ➤Creator : 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
@@ -2097,7 +2097,7 @@ interactiveMessage: {
 },
 },
 "header": {
-"title": "    ▓ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥━𝗩4 ▓",
+"title": " ▓ 𝗗𝗘𝗩𝗜𝗟 𝗦𝗣𝗜𝗗𝗘𝗥━𝗩4 ▓",
 ...(await prepareWAMessageMedia({ image: overlaid }, { upload: ryozingod.waUploadToServer })),
 "hasMediaAttachment": true
 },
@@ -2105,7 +2105,7 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "*# Electro Webt - 2k24*"
+"text": "*# Electro Web - ©2024*"
 },
 "nativeFlowMessage": {
 "buttons": [
@@ -2156,7 +2156,7 @@ interactiveMessage: {
 },
 {
 "name": "cta_url",
-"buttonParamsJson": "{\"display_text\":\"Saluran WhatsApp\",\"url\":\"https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\",\"merchant_url\":\"https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\"}"
+"buttonParamsJson": "{\"display_text\":\"Whatsapp Channel\",\"url\":\"https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\",\"merchant_url\":\"https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e\"}"
 }
 ],
 "messageParamsJson": ""
@@ -3294,6 +3294,72 @@ teks += `*Name :* ${pushname}\n*User :* @${sender.split('@')[0]}\n*Chat :* https
 joreply(teks)
 }
 break
+//=================================================//
+case 'runtime':
+                let pinga = `  𝐃𝐞𝐯𝐢𝐥 𝐒𝐩𝐢𝐝𝐞𝐫 𝐇𝐚𝐬 𝐁𝐞𝐞𝐧 𝐒𝐞𝐫𝐯𝐢𝐧𝐠 𝐘𝐨𝐮 𝐅𝐨𝐫 👽${runtime(process.uptime())}`
+                ryozingod.sendMessage(m.chat, {
+                    text: pinga,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: `𝙳𝙴𝚅𝙸𝙻 𝚂𝙿𝙸𝙳𝙴𝚁`,
+                            body: `𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`,
+                            thumbnailUrl: 'https://telegra.ph/file/f033b3bf6c0a9dd7bd9e9.jpg',
+                            sourceUrl: 'https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk',
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
+		
+case 'ping': {
+  const startTime = new Date();
+  const pingMsg = await ryozingod.sendMessage(m.chat, { text: '*𝑵𝒆𝒖𝒕𝒓𝒐*' });
+
+ await ryozingod.relayMessage(m.chat, {
+      protocolMessage: {
+        key: pingMsg.key,
+        type: 14,
+        editedMessage: {
+          conversation: `*𝙳𝙴𝚅𝙸𝙻 𝚂𝙿𝙸𝙳𝙴𝚁 𝚂𝙿𝙴𝙴𝙳 ➟* *${new Date() - startTime}* 𝙼𝚂`
+        }
+      }
+    }, {});
+  } 
+break;
+
+case "alive":
+
+const audiovn = "./Alive.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "",
+
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: " 𝑪𝒂𝒍𝒍 𝑴𝒆 𝑫𝒆𝒗𝒊𝒍 𝑺𝒑𝒊𝒅𝒆𝒓 ",
+          body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          thumbnailUrl: "https://telegra.ph/file/f4024957210931ad2e7d5.jpg",
+          sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
+          mediaType: 1,
+          renderLargerThumbnail: true
+          }}
+      };
+
+
+await ryozingod.sendMessage(m.chat, dooc, {quoted: m});
+
+
+break;
 //=================================================//
 case 'cgplug': {
 if (!isDeveloper) return joreply(mess.owner)
