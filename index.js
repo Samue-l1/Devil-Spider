@@ -241,7 +241,7 @@ ryoroyko.setStatus = (status) => {
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`254104301695@s.whatsapp.net`, { text: `❗Spider Bot has been connected🌤️
+ryoroyko.sendMessage(`254742491666@s.whatsapp.net`, { text: `❗Spider Bot has been connected🌤️
 
 Don't resell this script, because that will cause the bugs to be fixed quickly
 
