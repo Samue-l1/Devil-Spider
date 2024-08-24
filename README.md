@@ -50,7 +50,7 @@
 🦠| .👇👇
 ```
 # Instalasi
-* [Pair code](https://replit.com/@pesguru02/Classic-Pairing)
+* [`Pair code`](https://spider-classic-pairing.onrender.com)
 * [Heroku](  https://heroku.com/deploy?template=https://github.com/Samue-l1/Samue-l1)
 ## Heroku Buildpack
 ```bash
